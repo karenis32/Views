@@ -7,20 +7,34 @@
     <link href="~/css/site.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
-    <div id="principal">
-        <div id="navbar">
-            <p> SISTEMA  Empleados</p>           
-        </div>
-    
-        <div id="bodyid">
+   <div class="container">
+        <header>
+                <h1>SISTEMA Empleados</h1>
+        </header>
         <div id="sidebar">
-            <h1>¡Bienvenidos!</h1>
-
+            @if (IsSectionDefined("SideBar"))
+            {
+                @RenderSection("SideBar")
+            }
+            else
+            {
+                    <h2 style="color: black">Administracion de Empleados</h2>
+            }
+            
         </div>
-
+        <nav>
+            <div id="navSec">
+            @Html.ActionLink("Ir a Empleados","Index","Empleado")
+            @Html.ActionLink("Insertar Empleado","Insert","Empleado")
+            </div>
+        </nav>
     <div id="renderbody">
-        @RenderBody()
+                    @RenderBody()
     </div>
+
+    <footer>
+        <h3>info@empleados.com</h3>
+        </footer>
     </div>
 </body>
 </html>

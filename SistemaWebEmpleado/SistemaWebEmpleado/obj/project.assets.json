@@ -8803,11 +8803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Bootcamp C#\\Web Api .NET Core\\SistemaWebEmpleado\\SistemaWebEmpleado\\SistemaWebEmpleado.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Bootcamp C#\\Web Api .NET Core\\Views\\SistemaWebEmpleado\\SistemaWebEmpleado\\SistemaWebEmpleado.csproj",
       "projectName": "SistemaWebEmpleado",
-      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Bootcamp C#\\Web Api .NET Core\\SistemaWebEmpleado\\SistemaWebEmpleado\\SistemaWebEmpleado.csproj",
+      "projectPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Bootcamp C#\\Web Api .NET Core\\Views\\SistemaWebEmpleado\\SistemaWebEmpleado\\SistemaWebEmpleado.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Bootcamp C#\\Web Api .NET Core\\SistemaWebEmpleado\\SistemaWebEmpleado\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Bootcamp C#\\Web Api .NET Core\\Views\\SistemaWebEmpleado\\SistemaWebEmpleado\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

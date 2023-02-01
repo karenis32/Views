@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cScm+B1w+N1pveHNkf3pcclnOySGxkb5GvItLWkiO+HKFAKx4cE/XWQUj9YZJTEU11gcv9jvTr17GgexF4tc3w==",
+  "dgSpecHash": "oRMUqhCUiOx63Cyx6G3/XwAc6NAVV9cUtEcQ2c7Tzaemfx9fhBrDenRAcUjPV/4j325jfVyAPaeVh5fG2VOz/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Bootcamp C#\\Web Api .NET Core\\SistemaWebEmpleado\\SistemaWebEmpleado\\SistemaWebEmpleado.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\OneDrive\\Escritorio\\Bootcamp C#\\Web Api .NET Core\\Views\\SistemaWebEmpleado\\SistemaWebEmpleado\\SistemaWebEmpleado.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

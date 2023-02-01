@@ -1,80 +1,51 @@
-﻿* {
-    margin: 0;
+﻿.container{
+    color: white;
+    text-align: center;
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
 }
 
-
-#navbar {
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container header {
+    color: white;
+    height:120px;
+    text-align: center;
     background-color: lightskyblue;
-    flex-direction: column;
 }
 
-#bodyid {
-    display: flex;
-    /*width: 100vw;*/
-    height: 70%;
-    /*background-color: yellow;*/
-    justify-content: space-between;
+#sidebar{
+    background-color:white;
+    text-align:left;
 }
 
-#footer {
-    height: 10%;
-    background-color: grey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container nav {
+    background-color: lightgreen;
+    overflow: hidden;
+    line-height: 3.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flexbox;
+    color: white;
+
 }
 
-
-#principal {
-    height: 100vh;
-}
 
 #renderbody {
     width: 100%;
-    height: auto;
+    min-height: 400px;
     margin-bottom: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: black;
 }
 
-p {
-    font-size: 45px;
-    letter-spacing: 2px;
+.container footer {
+    background-color: lightskyblue;
     color: white;
-    transition: all 1s ease-in-out;
+    overflow: hidden;
+    line-height: 5vh;
 }
+#navSec a{
+    color:white!important;
 
-    p:hover {
-        font-size: 55px;
-        letter-spacing: 5px;
-    }
-
-#links {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 500px;
-    margin-top: 15px;
-}
-
-a {
-    font-size: 25px;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-}
-
-    a:hover {
-        color: red;
-    }
-
-h4 {
-    margin-top: 15px;
-    margin-left: 15px;
 }
 
