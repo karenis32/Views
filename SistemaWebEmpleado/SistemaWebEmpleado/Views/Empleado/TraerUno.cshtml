@@ -1,0 +1,15 @@
+﻿@model SistemaWebEmpleado.Models.Empleado;
+
+@{
+    ViewData["Title"] = "Mostrar por ID";
+}
+
+
+@Html.DisplayFor(model=>model.Id)
+@Html.DisplayFor(model=>model.Nombre)
+@Html.DisplayFor(model=>model.Apellido)
+@Html.DisplayFor(model=>model.DNI)
+@Html.DisplayFor(model=>model.Legajo)
+@Html.DisplayFor(model=>model.FechaNacimiento)
+
+@Html.ActionLink("Volver a Index", "Index", "Empleado")

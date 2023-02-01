@@ -1,0 +1,13 @@
+﻿@model SistemaWebEmpleado.Models.Empleado;
+
+@{
+    ViewData["Title"] = "Buscar por ID";
+}
+
+@using (Html.BeginForm("BuscarUno", "Empleado", FormMethod.Post))
+{
+    @Html.TextBoxFor(model=>model.Id)
+    <input type="submit"  action="BuscarUno" />
+}
+
+@Html.ActionLink("Volver a Index", "Index", "Empleado")
