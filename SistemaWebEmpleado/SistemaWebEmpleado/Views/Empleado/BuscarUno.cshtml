@@ -4,6 +4,10 @@
     ViewData["Title"] = "Buscar por ID";
 }
 
+@section SideBar
+    {
+         <h2 style="color: black">Administracion de Empleado </h2>
+}
 @using (Html.BeginForm("BuscarUno", "Empleado", FormMethod.Post))
 {
     @Html.TextBoxFor(model=>model.Id)

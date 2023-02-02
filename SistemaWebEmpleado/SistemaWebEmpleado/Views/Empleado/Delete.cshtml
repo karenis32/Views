@@ -3,7 +3,12 @@
 @{
     ViewData["Title"] = "Eliminar";
 }
-    <p>Desea eliminar este empleado?</p>
+
+@section SideBar
+    {
+     <h2 style="color: black">Administracion de Empleado </h2>
+} 
+    <h2>Desea eliminar este empleado?</h2>
 
 @using (Html.BeginForm("Delete", "Empleado", FormMethod.Post))
 {
